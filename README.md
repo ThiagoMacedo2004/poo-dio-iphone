@@ -28,7 +28,7 @@ Com base no vídeo de lançamento do iPhone de 2007 (link abaixo), você deve el
 2. Implementar as classes e interfaces correspondentes em Java (Opcional).
 
 ### Diagrama UML (Mermaid) desenvolvido para o desafio.
-
+```mermaid
 classDiagram
         Iphone <|-- ReprodutorMusical
         Iphone <|-- AparelhoTelefonico
@@ -52,3 +52,4 @@ classDiagram
             +adicionarNovaAba()
             +atualizarPagina()
         }
+```
